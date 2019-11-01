@@ -46,7 +46,7 @@ Some quick rules on how to query it
 
 ## Q&A
 
-> how much time am I suppose to work on this exercise
+> how much time am I supposed to work on this exercise
 
 This exercise is supposed take between 1 to 4 hours. The amount of time you spend on this isn't a criteria, and more isn't necessarily better. I'd rather see someone work 3 hours on this and return something thats no perfect, than someone spending a whole weekend to return something super polished. Keep in mind you're not getting paid for the time you work on this. If you want to spend more time, you can, but do it because it brings you something (you want to hone your skills), not because you expect something from Lucca.
 
@@ -98,6 +98,6 @@ Quelques règles rapides pour interroger l'api
 
 ## FaQ
 
-> Combien de temps je suis sense bosser dessus
+> Combien de temps je suis censé bosser dessus
 
 C'est fait pour etre faisable en 1 a 4h. Le temps passé dessus n'est pas un critère de notation, et plus n'est pas forcément mieux. Je prefère relire le travail de quelqu'un qui y passe 3h et rend quelque chose qui marche mais n'est pas parfait, plutot que celui de quelqu'un qui y passe tout un week end et rend quelque chose d'ultra peaufiné. Gardez en memoire que vous ne serez pas payé pour le temps passé à travailler sur ce test, si vous voulez y passer plus de temps, vous pouvez, mais faites le parce que ça vous apporte quelque chose (pour affuter vos compétences angular), plutot que parce que vous attendez quelque chose en retour de la part de Lucca.
