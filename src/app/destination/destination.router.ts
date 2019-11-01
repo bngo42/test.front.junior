@@ -3,9 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { DestinationComponent } from './destination.component';
 import { DestinationResolver } from './destination.resolver';
+import { DestinationActivityResolver } from './destination.activity.resolver';
 
 const routes = [
-	{ path: ':id', component: DestinationComponent, resolve: { destination: DestinationResolver }},
+	{ path: ':id', component: DestinationComponent, resolve: { destination: DestinationResolver, activities: DestinationActivityResolver }},
 ] as Routes;
 
 @NgModule({
