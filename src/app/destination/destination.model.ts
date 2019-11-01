@@ -11,3 +11,11 @@ export interface IDestination {
 	thumbnail: string;
 	gallery: string[];
 }
+
+export interface IActivity {
+	id: string;
+	name: string;
+	description: string;
+	destinationId: string;
+	thumbnail: string;
+}
