@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { IDestination } from './destination.model';
+import { IDestination, IActivity } from './destination.model';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable()
@@ -16,5 +16,13 @@ export class DestinationService {
 	}
 	getDestinationById(id: string): Observable<IDestination> {
 		return this.http.get<IDestination>(`/api/destination/${id}`);
+	}
+
+	getActivitiesByDestinationId(id: string): Observable<IActivity> {
+		const params = {} as any;
+		if (!!id) {
+			params['destinationId'] = id;
+		}
+		return this.http.get<IActivity>(`/api/activities`, { params : params });
 	}
 }
